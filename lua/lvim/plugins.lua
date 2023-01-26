@@ -196,7 +196,7 @@ local core_plugins = {
   {
     "SmiteshP/nvim-navic",
     config = function()
-      require("lvim.core.breadcrumbs").setup()
+      -- require("lvim.core.breadcrumbs").setup()
     end,
     enabled = lvim.builtin.breadcrumbs.active,
   },
